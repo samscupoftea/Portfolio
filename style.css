@@ -20,10 +20,14 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 91%;
+    border: 2px solid red;
+    margin-inline:  auto;
+    padding: 1rem 0;
 }
 
 .title{
-    font-size: 4rem;
+    font-size: 3rem;
     text-transform: uppercase;
 }
 .menu {
