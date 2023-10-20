@@ -6,11 +6,16 @@
 }
 
 *{
-    font-family: 'Averia Serif Libre', serif;
-font-family: 'Rajdhani', sans-serif;
+  
     margin: 0;
     padding: 0;
     line-height: 1.5;
 }
+body {
+    font-family: 'Averia Serif Libre', serif;
+    font-family: 'Rajdhani', sans-serif;
+}
 
-/* to do: Add google fonts.  */
+.header {
+    display: flex;
+}
