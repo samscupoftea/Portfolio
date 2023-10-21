@@ -26,12 +26,12 @@ body {
     padding: 1rem 0;
 }
 
-.title{
+.header__title{
     font-size: 3rem;
     text-transform: uppercase;
     flex: 1;
 }
-.menu {
+.header__menu {
     display: flex;
     gap: 3rem;
     border: 5px solid red;
@@ -39,7 +39,7 @@ body {
     padding: 1rem 0;
     
 }
-.link {
+.header__link {
     text-decoration: none;
     color: black;
 }
