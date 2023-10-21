@@ -19,8 +19,8 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    width: 91%;
+    align-items:flex-start;
+    width: 60%;
     border: 2px solid red;
     margin-inline:  auto;
     padding: 1rem 0;
@@ -29,10 +29,15 @@ body {
 .title{
     font-size: 3rem;
     text-transform: uppercase;
+    flex: 1;
 }
 .menu {
     display: flex;
-    gap: 1rem;
+    gap: 3rem;
+    border: 5px solid red;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    
 }
 .link {
     text-decoration: none;
