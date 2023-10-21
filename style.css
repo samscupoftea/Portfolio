@@ -91,6 +91,7 @@ button{
 }
 .projects__container{
     display: flex;
+    gap: 2rem;
 }
 .projects__box{
     color: white;
@@ -98,6 +99,7 @@ button{
     border: 1px solid red;
     padding: 2rem;
     border-radius: 20px;
+    flex: 1;
 }
 
 /* utility class */
