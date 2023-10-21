@@ -83,6 +83,14 @@ body {
     max-width: 45ch;
     margin: 1rem 0;
 }
+.projects__container{
+    display: flex;
+    
+}
+.projects__box{
+    background-color: black;
+}
+
 /* utility class */
 .btn{
     text-decoration: none;
