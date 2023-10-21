@@ -50,10 +50,7 @@ body {
 /* HERO SECTION */
 .hero{
     border: 1px solid red;
-    width: 90%;
-    margin-inline: auto;
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 .btn{
     background-color: black;
@@ -61,4 +58,7 @@ body {
     padding: 0.5rem 1rem;
     border-radius: 4px;
 }
-
+.container{
+    width: 90%;
+    margin-inline: auto;
+}
