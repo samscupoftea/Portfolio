@@ -43,3 +43,6 @@ body {
     text-decoration: none;
     color: black;
 }
+.header__link--red{
+    color: red;
+}
