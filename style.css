@@ -12,13 +12,18 @@
     line-height: 1.5;
 }
 body {
-    font-family: 'Averia Serif Libre', serif;
+    
     font-family: 'Rajdhani', sans-serif;
 }
-
+button{
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-family: inherit;
+}
 .header {
     display: flex;
-    justify-content: space-between;
+  
     align-items:flex-start;
     width: 60%;
     /* border: 2px solid red; */
@@ -79,26 +84,30 @@ body {
 
 }
 .projects__description{
-    font-size: 1.5rem;
-    max-width: 45ch;
+    font-size: 1.2rem;
+    max-width: 40ch;
     margin: 1rem 0;
 }
-.projects__container{
-    display: flex;
-    
-}
+
 .projects__box{
     background-color: black;
+    border: 1px solid red;
 }
 
 /* utility class */
+.header__btn-container{
+    display: flex;
+    gap: 1rem;
+    flex: 1;
+    justify-content: flex-end;
+}
 .btn{
     text-decoration: none;
     display: inline-block;
     background-color: black;
     color: white;
     padding: 0.5rem 1rem;
-    border-radius: 4px;
+    border-radius: 2px;
 }
 .container{
     width: 90%;
