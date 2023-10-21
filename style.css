@@ -76,6 +76,7 @@ button{
 /* projects */
 .projects{
     margin-top: 10rem;
+    
 }
 .projects__title{
     font-size: 2.25rem;
@@ -88,10 +89,15 @@ button{
     max-width: 40ch;
     margin: 1rem 0;
 }
-
+.projects__container{
+    display: flex;
+}
 .projects__box{
+    color: white;
     background-color: black;
     border: 1px solid red;
+    padding: 2rem;
+    border-radius: 20px;
 }
 
 /* utility class */
