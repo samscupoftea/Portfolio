@@ -125,10 +125,11 @@ button{
 .projects__btn{
 background-color: white;
 color: black;
-padding: 0 1rem;
-margin: 1rem 0;
+padding: 0.4rem 1rem;
+margin: 2rem 0;
 font-weight: 400;
-border-radius: 10px;
+width: 100%;
+border-radius: 10000000000000000px;
 }
 /*utility class */
 .header__btn-container{
@@ -143,7 +144,8 @@ border-radius: 10px;
     background-color: black;
     color: white;
     padding: 0.5rem 1rem;
-    border-radius: 2px;
+    width: 50%;
+    border-radius: 100000000px;
 }
 .container{
     width: 90%;
