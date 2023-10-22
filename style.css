@@ -164,7 +164,25 @@ font-size: 1.5rem;
 max-width: 45ch;
 margin: 1rem auto;
 }
+.about__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+.about__box{
+    border: 10px solid gold;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 500px;
 
+}
+.about__box-title{
+    line-height: 1;
+}
+.about__box-description{
+    margin-top: 1rem;
+}
 /*utility class */
 .header__btn-container{
     display: flex;
