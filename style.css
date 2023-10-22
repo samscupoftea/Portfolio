@@ -139,6 +139,15 @@ border-radius: 10000000000000000px;
     font-size: 0.8rem;
     color: brown;
 }
+.projects__picture{
+    width: 220px; 
+    height: 220px; 
+    object-fit: cover;
+    border: 4px solid white;
+    border-radius: 10%;
+    margin-inline: auto;
+ 
+}
 /*utility class */
 .header__btn-container{
     display: flex;
