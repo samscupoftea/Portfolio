@@ -148,6 +148,23 @@ border-radius: 10000000000000000px;
     margin-inline: auto;
  
 }
+
+/* about me */
+.about{
+    margin-top: 10rem;
+    text-align: center;
+}
+.about__title{
+    font-size: 2.25rem;
+    letter-spacing: -0.05em;
+    line-height: 1;
+}
+.about__description{
+font-size: 1.5rem;
+max-width: 45ch;
+margin: 1rem auto;
+}
+
 /*utility class */
 .header__btn-container{
     display: flex;
