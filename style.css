@@ -108,13 +108,29 @@ button{
     color: white;
     background-color: black;
     padding: 2.5rem;
-
     /* padding: 2rem; */
     border-radius: 20px;
     flex: 1;
 }
+.projects__name{
+    font-size: 2rem;
+}
+.projects__img{
+    margin: 1rem 0 0.25rem;
+}
+.projects__info{
 
-/* utility class */
+}
+
+.projects__btn{
+background-color: white;
+color: black;
+padding: 0 1rem;
+margin: 1rem 0;
+font-weight: 400;
+border-radius: 10px;
+}
+/*utility class */
 .header__btn-container{
     display: flex;
     gap: 1rem;
