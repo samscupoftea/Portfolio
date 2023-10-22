@@ -131,6 +131,14 @@ font-weight: 400;
 width: 100%;
 border-radius: 10000000000000000px;
 }
+.projects__features{
+    padding-left: -2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    font-size: 0.8rem;
+    color: brown;
+}
 /*utility class */
 .header__btn-container{
     display: flex;
