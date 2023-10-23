@@ -307,6 +307,18 @@ margin: 1rem auto;
     .projects__description{
         font-size: 0.9rem;
     }
+    .about__title{
+        font-size: 1.5rem;
+    }
+    .about__description{
+        font-size: 0.9rem;
+    }
+    .contact__title{
+        font-size: 1.7rem;
+    }
+    .contact__description{
+        font-size: 1rem;
+    }
 }
 @media (max-width: 628px) {
     .header {
@@ -327,12 +339,18 @@ margin: 1rem auto;
     .projects__title{
         font-size: 1.3rem;
     }
+    .about__title{
+        font-size: 1.3rem;
+    }
 }
 @media (max-width: 396px){
     .hero__title{
         font-size: 1.6rem;
     }
     .projects__title{
+        font-size: 1.1rem;
+    }
+    .about__title{
         font-size: 1.1rem;
     }
 }
