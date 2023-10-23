@@ -115,6 +115,7 @@ button{
 .projects__container{
     display: flex;
     gap: 2rem;
+    flex-wrap: wrap;
 }
 .projects__box{
     color: white;
@@ -123,6 +124,7 @@ button{
     /* padding: 2rem; */
     border-radius: 20px;
     flex: 1;
+    min-width: 400px;
 }
 .projects__name{
     font-size: 2rem;
@@ -266,6 +268,14 @@ margin: 1rem auto;
         width: 2rem;
         height: 2rem;
     }
+    /* projects section */
+
+    .projects__title{
+        font-size: 2rem;
+    }
+    .projects__description{
+        font-size: 1rem;
+    }
 
 }
 @media (max-width: 703px) {
@@ -290,6 +300,13 @@ margin: 1rem auto;
     .hero__btn{
         font-size: 0.9rem;
     }
+    /* projects section */
+    .projects__title{
+        font-size: 1.5rem;
+    }
+    .projects__description{
+        font-size: 0.9rem;
+    }
 }
 @media (max-width: 628px) {
     .header {
@@ -307,9 +324,15 @@ margin: 1rem auto;
     .hero__title{
         font-size: 2rem;
     }
+    .projects__title{
+        font-size: 1.3rem;
+    }
 }
 @media (max-width: 396px){
     .hero__title{
         font-size: 1.6rem;
+    }
+    .projects__title{
+        font-size: 1.1rem;
     }
 }
