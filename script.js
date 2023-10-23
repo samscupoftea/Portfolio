@@ -1,7 +1,7 @@
 const mobileNav = () => {
     const headerBtn = document.querySelector('.header__bars'); // Corrected selector
     const mobileNav = document.querySelector('.mobile-nav');
-
+    const mobileLinks = document.querySelectorAll('mobile-nav__link');
   //status of button 
     let isMobileNavOpen = false;
 
@@ -15,7 +15,18 @@ const mobileNav = () => {
         } else {
       mobileNav.style.display = 'none'; // Corrected property assignment
       document.body.style.overflowY = 'auto';
-}});
+}
+});
+mobileLinks.forEach(Link => {
+    link.addEventListener('click', () => {
+        isMobileNavOpen = false;
+        mobileNav.style.display = 'none';
+        document.body.style.overflowY = 'auto';
+
+    });
+});
+
+
   };
    
   mobileNav();
