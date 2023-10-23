@@ -9,14 +9,14 @@
 
 *{
     scroll-behavior: smooth;
-  
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.5;
 }
 body {
     /* background-image:  url(./Portfolio\ Pics/mountain.jpg); */
-    background-color: rgb(105, 106, 106);
+    background-color: rgb(254, 255, 255);
     font-family: 'Rajdhani', sans-serif;
   
 }
@@ -45,7 +45,7 @@ button{
     font-size: 3rem;
     text-transform: uppercase;
     flex: 1;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 }
 .header__menu {
     display: flex;
@@ -53,12 +53,12 @@ button{
     /* border: 5px solid red; */
     font-size: 1.5rem;
     padding: 1rem 0;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     
 }
 .header__link {
     text-decoration: none;
-    color: rgb(255, 254, 254);
+    color: rgb(0, 0, 0);
 }
 /* .header__link--red{
     color: rgb(2, 2, 2);
@@ -104,7 +104,7 @@ text-align: center;
     line-height: 1;
     letter-spacing:0.05em;
     max-width: 25ch;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
    
     margin-inline: auto;
 
@@ -114,7 +114,7 @@ text-align: center;
     width: 220px; 
     height: 220px; 
     object-fit: cover;
-    border: 3px solid white;
+    border: 3px solid rgb(0, 0, 0);
 
     border-radius: 100%; /* Makes it a circle */
     /* display: block; */
@@ -133,17 +133,17 @@ text-align: center;
     
 }
 .projects__title{
-    font-size: 2.25rem;
+    font-size: 2.4rem;
     letter-spacing: -0.05em;
     line-height: 1;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 
 }
 .projects__description{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     max-width: 40ch;
     margin: 1rem auto;
-    color: white;
+    color: rgb(0, 0, 0);
     /* text-align: center; */
 }
 .projects__container{
@@ -185,7 +185,7 @@ border-radius: 10000000000000000px;
     flex-direction: column;
     gap: 1.5rem;
     font-size: 0.8rem;
-    color: brown;
+    color: rgb(255, 255, 255);
 }
 .projects__picture{
     width: 220px; 
@@ -219,7 +219,7 @@ margin: 1rem auto;
     gap: 1rem;
 }
 .about__box{
-    border: 10px solid rgb(255, 255, 255);
+    border: 4px solid rgb(7, 7, 7);
     padding: 2rem;
     border-radius: 10px;
     width: 500px;
