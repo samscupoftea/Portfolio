@@ -56,7 +56,32 @@ button{
 .header__link--red{
     color: rgb(2, 2, 2);
 }
-
+@media (max-width: 891px) {
+    .header__title{
+        font-size: 1.6rem;
+    } 
+    .header__link {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 703px) {
+    .header__title{
+        font-size: 1.5rem;
+    } 
+    .header__link {
+        font-size: 1.4rem;
+    }
+}
+@media (max-width: 628px) {
+    .header__title{
+        font-size: 1.3rem;
+    } 
+    .header__link {
+        font-size: 0.9rem;
+        padding: 0rem 0rem;
+        margin-right: 0rem;
+    }
+}
 /* HERO SECTION */
 .hero{
     
