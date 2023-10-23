@@ -2,10 +2,13 @@
 *::before,
 *::after {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 
 }
 
+
 *{
+    scroll-behavior: smooth;
   
     margin: 0;
     padding: 0;
@@ -25,12 +28,14 @@ button{
 }
 .header {
     display: flex;
+    background-color: rgba(204, 211, 219, 0.2);
+    border-radius: 20px;
   
     align-items:flex-start;
     width: 60%;
     /* border: 2px solid red; */
     margin-inline:  auto;
-    padding: 1rem 0;
+    padding: 1rem 2em;
     position: relative;
     z-index: 9999;
  
@@ -55,9 +60,9 @@ button{
     text-decoration: none;
     color: rgb(255, 254, 254);
 }
-.header__link--red{
+/* .header__link--red{
     color: rgb(2, 2, 2);
-}
+} */
 /* mobile nav */
 .mobile-nav{
 position: absolute;
