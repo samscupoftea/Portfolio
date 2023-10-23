@@ -217,6 +217,16 @@ margin: 1rem auto;
 
 
 }
+/* footer */
+.footer{
+    margin-top: 10rem;
+    text-align: center;
+}
+.footer__title{
+    font-size: 1rem;
+    letter-spacing: 0.15em;
+    font-weight: 300;
+}
 /*utility class */
 .header__btn-container{
     display: flex;
