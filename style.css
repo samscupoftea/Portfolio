@@ -195,12 +195,19 @@ margin: 1rem auto;
 /* contact */
 
 .contact{
+    margin-top: 10rem;
+    text-align: center;
+
 }
 .contact__title{
-
+font-size: 2.25rem;
+letter-spacing: -0.05em;
+line-height: 1;
 }
 .contact__description{
-
+font-size: 1.2rem;
+max-width: 60ch;
+margin: 1rem auto;
 }
 .contact__btn{
 
@@ -223,8 +230,8 @@ margin: 1rem auto;
     background-color: black;
     color: white;
     padding: 0.5rem 1rem;
-    width: 50%;
-    border-radius: 100000000px;
+    width: 10%;
+    border-radius: 10px;
 }
 .container{
     width: 90%;
