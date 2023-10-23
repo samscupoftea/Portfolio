@@ -89,6 +89,9 @@ text-align: center;
     
     text-align: center;
     margin-top: 10rem;
+    background-image: linear-gradient(rgba(0,0,0, 0.4), rgba(0,0,0,0.4)), url(./Portfolio\ Pics/mountain.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 .hero__title{
